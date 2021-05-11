@@ -1,5 +1,5 @@
 (ns aprendendo_clojure.aula3)
-;; Juntei o código das aulas em uma só essa seria a aula 5 do primeiro curso da formação.
+;; Juntei o código das aulas em uma só essa seria a aula 4 do primeiro curso da formação.
 
 ;; Codigo da aula 3 e 4 juntas
 (def precos [30, 700, 1000])
@@ -31,3 +31,14 @@
 
 ;; Map após o filter
 (println (map valor-descontado (filter aplica-desconto? precos)))
+
+;; Reduce
+(println (reduce + precos))
+
+(defn minha-soma
+  [valor-1 valor-2]
+  (println "somando" valor-1 valor-2)
+  (+ valor-1 valor-2))
+
+(println (reduce minha-soma precos))
+(println (reduce minha-soma (range 10)))
