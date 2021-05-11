@@ -1,5 +1,5 @@
 (ns aprendendo-clojure.aula2)
-;; Juntei o código das aulas em uma só essa seria a aula 4 do primeiro curso da formação.
+;; Juntei o código das aulas em uma só essa seria a aula 3 do primeiro curso da formação.
 (def precos [30 70 1000])
 
 (println (precos 0))
