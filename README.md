@@ -7,3 +7,4 @@ O que aprendi até agora:
 * Simbolos e condicionais
 * Funções anonimas e lambdas
 * Coleções
+* HashMaps
