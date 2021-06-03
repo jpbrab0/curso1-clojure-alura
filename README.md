@@ -14,4 +14,5 @@ O que aprendi até agora:
 ---
 
 Terminei o curso, e consegui o certificado! :)
+
 https://cursos.alura.com.br/certificate/60dfb951-d2ac-42ae-9bd6-1da7469eb90a
